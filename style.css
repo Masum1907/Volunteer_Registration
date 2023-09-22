@@ -1,0 +1,287 @@
+body {
+    background: #ffffff;
+}
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #666;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+.alert{
+    width: 100%;
+    background: rgb(0, 255, 106);
+  
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}
+/* Style for the select label */
+/* Style for the select label */
+.select-label {
+  font-weight: bold;
+  margin-top: 15px; /* Increase the top margin */
+  margin-bottom: 5px; /* Add margin to the bottom */
+}
+
+/* Style for the select box */
+.select-box {
+  width: 100%;
+  padding: 10px; /* Increase padding for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px; /* Increase the bottom margin */
+}
+
+
+
+
+.add-remove-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-remove-buttons button {
+    margin-bottom: 10px;
+}
+/* Style the header and navigation bar */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background: #35546b;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+  @media (max-width: 758px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  
+  }
+ 
+
+/* ... (previous CSS code) ... */
+
+#home {
+    
+    padding: 50px;
+    
+}
+
+#home h2 {
+    text-align: left;
+    font-size: 28px;
+    color: #333;
+
+}
+
+/* Update the CSS to style the list items for both large and small screens */
+#home .list {
+    text-align: left;
+    padding-left: 20px; /* Add left padding for indentation */
+}
+
+#home .list li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align:left;
+}
+
+
+
+#home h3 {
+    font-size: 20px;
+    color: #0400ff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    
+}
+
+#home p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align:left;
+    
+}
+
+#home .btn {
+    display: block; /* Change to block-level element */
+    margin: 0 auto; /* Center horizontally using margin */
+    padding: 10px 20px;
+    background: #0082e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+
+/* contact */
+   
+.contact-container {
+  margin: 20px;
+  font-size: 18px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* CSS for the footer */
+
+footer {
+  position: fixed; /* or "absolute" if needed */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #35546b; /* Background color for the footer */
+  color: #fff; /* Text color for the footer */
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-content {
+  font-size: 14px;
+  
+}
+.footer-content a{
+  font-size: 15px;
+  color: #000000;
+  text-decoration: none;
+  
+}
+.footer-content a:hover{
+  color: white;
+  background: #35546b;
+  transition: .5s;
+}

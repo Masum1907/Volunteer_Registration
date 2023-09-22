@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Welcome to KU CSE FEST 2023</label>
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+        
+        <li><a href="#about">About</a></li>
+       
+        <li><a href="#contact">Contact</a></li>
+         <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
+    
+    
+    <main>
+        <section id="home">
+            <h1></h1>
+            <h2><b>Volunteer Registration for KU_CSE_FEST_2023</b></h2>
+            <br><br><br><br>
+    <p>Volunteers will help with a variety of tasks across before and program days ! Volunteer duties include:</p>
+    <div class="list">
+        <li># Helping with setup and kickoff</li>
+        <li># Hosting information tables</li>
+        <li># Serving lunch and breakfast</li>
+        <li># Making sure our participants have everything they need</li>
+        <li># Breaking down and cleaning up</li>
+        <li># More.....</li>
+    </div>
+<br>
+    <h3>Why Volunteer?</h3>
+    <p>Volunteering is good for your community and good for you! Did you know volunteers are 42% more likely to say they are very happy than people who don't? Be a part of a new program, meet cool people and learn about something new!</p>
+    
+<p>
+Join us for an exciting day of creativity and innovation ! 
+</p>
+
+<p>
+As a volunteer, you will have the chance to work closely with talented young minds, providing guidance and support throughout the event.
+</p><p>
+Don't miss out on this incredible opportunity to be part of the  program! 
+Register now and help us empower the next generation of tech leaders.
+</p>   <h3>How can you know are you selected as volunteer or not?</h3>
+    <p>We will contact with selected volunteer after selection process complete.</p>
+
+    <a href="#register" class="btn">Sign-up as a Volunteer</a>
+            <!-- Add content for the Home section -->
+        </section>
+        <section id="about">
+            <h2 style="text-align: center;margin-top: 10px;">About Us</h2>
+            <!-- Add content for the About section -->
+            <br><br><br>
+            <h1 style="text-align: center;margin-top: 10px;">We are KU_CSE_Family members</h2>
+                <h1 style="text-align: center;margin-top: 10px;">are going to arrange KU_CSE_FEST_2023</h2>
+
+        </section>
+        <section id="register">
+           
+            <!-- Include the registration form here -->
+            <div class="container">
+                <div class="alert">Your registration was successful.</div>
+                <form class="form" action="#" id="registration-form">
+                    <h1 class="login-title">Registration</h1>
+                    <label for="name" class="select-label">Name:</label>
+
+                    <input id="name" type="text" class="select-box" name="student_name[]" placeholder="Student Name" required />
+                    
+                    <label for="roll" class="select-label">Student ID:</label>
+                    <input id="roll"type="text" class="select-box" name="student_roll[]" placeholder="Roll Number" required />
+                    
+                    <label for="email" class="select-label">Email:</label>
+                    <input id="email"type="email" class="select-box" name="student_email[]" placeholder="Email" required />
+                    
+                    <label for="tel" class="select-label">Contact Number:</label>
+                    <input id="tel"type="tel" class="select-box" name="student_phone[]" placeholder="Phone Number" required />
+                    <label for="program_choice" class="select-label">Choose Program:</label>
+                    <select id="program_choice" name="program_choice[]" required class="select-box">
+                        <option value="Programming Contest">Programming Contest</option>
+                        <option value="Hackathon">Hackathon</option>
+                        <option value="Datathon">Datathon</option>
+                        <option value="Gaming">Gaming</option>
+                        
+                    </select>
+                    <label for="tshirt_size" class="select-label">Choose T-shirt Size:</label>
+                    <select id="tshirt_size" name="tshirt_size[]" required class="select-box">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+                    </select>
+                    <input type="submit" name="submit" value="Submit" class="login-button">
+                </form>
+                
+                
+            </div>
+        </section>
+        <section id="contact">
+            <h2 style="text-align: center;margin-top: 10px;">Contact Us</h2>
+            <div class="contact-container">
+                <h2>Programming Contest & Datathon </h2>
+                
+                    <p><b>Sahriar Kabir</b></p>
+                    <p><b>Phone:</b>01956443656</p>
+                    <p><b>Email:</b>shahriar1904@cseku.ac.bd
+                    </p>
+                
+            </div>
+        <br>
+            <!-- Hackathon Organizer -->
+            <div class="contact-container">
+                <h2>Hackathon </h2>
+                
+                    <p><b>Saykat Mondal</b></p>
+                    <p><b>Phone:</b>01745272595 </p>
+                    <p><b>Email:</b>saykat1911@cseku.ac.bd  </p>
+                
+            </div>
+            <br>
+            <!-- Gaming Organizer -->
+            <div class="contact-container">
+                <h2>Gaming </h2>
+                
+                    <p><b>Sheikh Rais Rahman</b></p>
+                    <p><b>Phone:</b>01881897501</p>
+                    <p><b>Email:</b>raisrahman161998@gmail.com </p>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p style="text-decoration: none;color: white;">Designed by <a href="https://www.facebook.com/masum.cseku/">Masum Rayhan (190207)</a></p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="reg.js"></script>
+</body>
+</html>
